@@ -2,25 +2,33 @@
 <html>
 <head>
 	<title>Rock Paper Scissor Game</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
-<header>
-	<h1>Rock Papper Scissor</h1>
-</header>
-<div class="score-board">
-	<div id="user-label" class="badge">User</div>
-	<div id="computer-label" class="badge">Comp</div>
-	<span id="user-score">0</span>:<span id="computer-score">0</span>
-</div>
-<div class="result">
-	<p>Paper cover Rocks. You Win!</p>
-</div>
-<div class="choices">
-	<div class="choice">
-		<img src="">
+	<header>
+		<h1>Rock Papper Scissor</h1>
+	</header>
+	<div class="score-board">
+		<div id="user-label" class="badge">User</div>
+		<div id="computer-label" class="badge">Comp</div>
+		<span id="user-score">0</span>:<span id="computer-score">0</span>
 	</div>
-	
-</div>
+	<div class="result">
+		<p>Paper cover Rocks. You Win!</p>
+	</div>
+	<div class="choices">
+		<div class="choice" id="rock">
+		<img src="images/rock.png">
+		</div>
+		<div class="choice" id="paper">
+			<img src="images/paper.png">
+		</div>
+		<div class="choice" id="scissor">
+			<img src="images/scissor.png">
+		</div>
+	</div>
+
+	<p id="action-message">Make your Move</p>
 </body>
 </html>

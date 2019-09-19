@@ -64,6 +64,8 @@ header > h1{
 	margin: 50px 0;
 	color: white;
 	font-family: Asap,sans-serif;
+	font-weight: bold;
+	font-size: 50px;
 }
 .choice{
 	display: inline-block;
@@ -75,10 +77,8 @@ header > h1{
 }
 .choice:hover{
 	cursor: pointer;
-	background: yellow;
-	color: black;
 	font-family: Asap,sans-serif;
-	border-color: red;
+	
 }
 #action-message{
 	color: white;
@@ -86,4 +86,20 @@ header > h1{
 	text-align: center;
 	font-size: 20px;
 	font-weight: bold;
+}
+.green-glow{
+	border :4px solid #4dcc7d;
+	box-shadow: 0 0 10px #31b43a;
+	color: #4dcc7d;
+}
+.red-glow{
+	border :4px solid #fc121b;
+	box-shadow: 0 0 10px #d01115;
+	color: #fc121b;
+}
+
+.gray-glow{
+	border :4px solid #464647;
+	box-shadow: 0 0 10px #25292b;
+	color: #464647;
 }
